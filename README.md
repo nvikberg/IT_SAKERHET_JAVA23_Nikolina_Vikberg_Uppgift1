@@ -2,9 +2,9 @@
 ## En app som sparar registerings uppgifter i firestore databas med hashat och saltat lösenord
 ### Nikolina Vikberg - Grit Academy, Malmö
 
-### Create an app
+### A simple delivery app where user enters information 
 - Database: I used Firestore
-- Security: Hashing
+- Security: Hashing + policy checkbox 
 - Language: Java<br>
 ### Functions:
 - Create Account: The user should enter the necessary data.
