@@ -8,8 +8,8 @@
 - Language: Java<br>
 ### Functions:
 - Create Account: The user should enter the necessary data.
-- View Account: The user should be able to view their account based on the username.
-- Delete Account: The user should be able to delete their account.
+- View Account: The user should be able to view their account based on the username. The user can enter it's email and get the data from the database, the password will not be displayed.
+- Delete Account: The user should be able to delete their account. The user gets an alert dialog before committing to deleting his or hers account
 
 
 Register Activity<br>
