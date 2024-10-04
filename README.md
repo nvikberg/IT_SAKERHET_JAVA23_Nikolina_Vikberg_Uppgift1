@@ -22,7 +22,7 @@ Saftey alert before deleting from database<br>
 ![deleteAleert](https://github.com/user-attachments/assets/ef0c60d5-c14a-4c80-87ce-365535eaff33)
 
 Database Structure<br>
-<img width="1166" alt="hashedpasswordDatabase" src="https://github.com/user-attachments/assets/9e142ca1-a876-4362-b858-c0499b6d3572">
+<img width="968" alt="Skärmbild 2024-10-04 132431" src="https://github.com/user-attachments/assets/bee9ebd4-c749-4dc9-bd63-13249396dca1">
 
 Hashed and salted pw code<br>
 <img width="382" alt="Skärmbild 2024-10-04 132112" src="https://github.com/user-attachments/assets/1aa50fd9-fabe-4077-8093-d3aca2618115">
