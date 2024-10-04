@@ -1,4 +1,4 @@
-# It Säkerhet Uppg 1 
+# IT Säkerhet Uppg 1 
 ## En app som sparar registerings uppgifter i firestore databas med hashat och saltat lösenord
 ### Nikolina Vikberg - Grit Academy, Malmö
 
