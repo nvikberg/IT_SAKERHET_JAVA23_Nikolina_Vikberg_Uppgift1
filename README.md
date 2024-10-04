@@ -5,7 +5,7 @@
 Create an app
 - Database: I used Firestore
 - Security: Hashing
-- Language: Java
+- Language: Java<br>
 Functions:
 - Create Account: The user should enter the necessary data.
 - View Account: The user should be able to view their account based on the username.
