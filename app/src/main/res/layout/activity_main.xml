@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#54FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="backgroundimg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/boxpic" />
+
+    <TextView
+        android:id="@+id/adminText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Shipping Company"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#54FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/policyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Open Privacy Policy"
+            android:textColorLink="#E48C70" />
+
+        <CheckBox
+            android:id="@+id/policyChecked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I have read the privacy policy"/>
+
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:textColorLink="#E48C70" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/accountsButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="Show Accounts" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="Logout" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
+
